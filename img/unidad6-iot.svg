@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">El despertar del mundo conectado</title>
+  <desc id="desc">Una vivienda inteligente conectada con una ciudad, dispositivos, sensores y servicios digitales.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#04172b"/>
+      <stop offset=".52" stop-color="#102455"/>
+      <stop offset="1" stop-color="#39175d"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#3adcf7" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#8d72ff" stop-opacity=".22"/>
+    </linearGradient>
+    <radialGradient id="sun">
+      <stop stop-color="#fff2b4"/>
+      <stop offset=".35" stop-color="#ffc66d" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#ffc66d" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1280" cy="160" r="180" fill="url(#sun)"/>
+  <g fill="#0a1c35" stroke="#314e7c" stroke-width="5">
+    <path d="M1030 660V260h150v400z"/><path d="M1205 660V190h190v470z"/><path d="M1420 660V330h130v330z"/>
+  </g>
+  <g fill="#3adcf7" opacity=".75">
+    <path d="M1060 300h28v28h-28zm54 0h28v28h-28zm-54 60h28v28h-28zm54 0h28v28h-28zm-54 60h28v28h-28zm54 0h28v28h-28z"/>
+    <path d="M1240 245h32v32h-32zm60 0h32v32h-32zm60 0h32v32h-32zm-120 65h32v32h-32zm60 0h32v32h-32zm60 0h32v32h-32zm-120 65h32v32h-32zm60 0h32v32h-32zm60 0h32v32h-32z"/>
+    <path d="M1450 375h28v28h-28zm48 0h28v28h-28zm-48 58h28v28h-28zm48 0h28v28h-28z"/>
+  </g>
+  <g transform="translate(120 210)">
+    <path d="M40 255 330 35l290 220v400H40z" fill="#091e38" stroke="#73e8ff" stroke-width="8"/>
+    <path d="M260 655V405h145v250" fill="url(#glass)" stroke="#8d72ff" stroke-width="7"/>
+    <path d="M90 315h120v105H90zm360 0h120v105H450z" fill="#1d5d80" stroke="#3adcf7" stroke-width="6"/>
+    <path d="M45 255h570" stroke="#8d72ff" stroke-width="8" opacity=".7"/>
+    <g transform="translate(480 495)" fill="none" stroke="#3adcf7" stroke-width="8">
+      <circle r="58" fill="#0e3150"/><path d="M-26 6 0-24 26 6M0-24v53" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <path d="M0 738c330-70 650-32 855 36 260 86 486 33 745-26v152H0z" fill="#071326"/>
+  <g fill="none" stroke="#3adcf7" stroke-width="5" opacity=".52">
+    <path d="M420 155 785 115 1030 275"/>
+    <path d="M645 560 910 450 1275 510"/>
+    <path d="M360 635 775 725 1190 615"/>
+  </g>
+  <g fill="#3adcf7" filter="url(#glow)">
+    <circle cx="420" cy="155" r="11"/><circle cx="785" cy="115" r="11"/><circle cx="1030" cy="275" r="11"/>
+    <circle cx="645" cy="560" r="11"/><circle cx="910" cy="450" r="11"/><circle cx="1275" cy="510" r="11"/>
+    <circle cx="360" cy="635" r="11"/><circle cx="775" cy="725" r="11"/><circle cx="1190" cy="615" r="11"/>
+  </g>
+  <g transform="translate(820 515)">
+    <circle cx="0" cy="-95" r="42" fill="#f4c7aa"/>
+    <path d="M-48-42c20-48 76-48 96 0l40 155H-88z" fill="#8d72ff"/>
+    <path d="M-55 112-78 245M55 112 78 245" stroke="#f5f8ff" stroke-width="27" stroke-linecap="round"/>
+    <path d="M-28-20-96 100M28-20 96 100" stroke="#f4c7aa" stroke-width="23" stroke-linecap="round"/>
+    <rect x="72" y="65" width="70" height="104" rx="13" fill="#091e38" stroke="#3adcf7" stroke-width="6"/>
+    <circle cx="107" cy="151" r="5" fill="#3adcf7"/>
+  </g>
+  <g transform="translate(960 715)">
+    <path d="M0 0c115-95 260-95 385 0" fill="none" stroke="#8d72ff" stroke-width="13" stroke-linecap="round"/>
+    <path d="M50-5c86-65 188-65 280 0" fill="none" stroke="#3adcf7" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="190" cy="8" r="17" fill="#f5f8ff" filter="url(#glow)"/>
+  </g>
+</svg>

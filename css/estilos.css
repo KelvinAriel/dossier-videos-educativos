@@ -300,6 +300,8 @@ p { margin: 0 0 1rem; color: var(--muted); }
   background: linear-gradient(0deg, rgba(3,11,23,.98) 4%, rgba(6,18,36,.68) 55%, rgba(6,18,36,.12));
 }
 .unit-card:hover img { transform: scale(1.045); }
+.unit-card.featured { grid-column: 1 / -1; min-height: 500px; }
+.unit-card.featured .unit-card-content { max-width: 760px; }
 .unit-card-content { padding: 28px; }
 .unit-number { color: var(--cyan); font-size: .78rem; font-weight: 900; letter-spacing: .14em; text-transform: uppercase; }
 .unit-card h3 { margin: 8px 0 10px; font-size: 1.5rem; }
@@ -464,6 +466,7 @@ p { margin: 0 0 1rem; color: var(--muted); }
   .stat:last-child { border-bottom: 0; }
   .page-hero { min-height: 440px; }
   .unit-card { min-height: 370px; }
+  .unit-card.featured { min-height: 400px; }
   .role-table { display: block; overflow-x: auto; }
   .unit-nav { grid-template-columns: 1fr; }
   .unit-nav .btn { width: 100%; justify-content: center !important; }
