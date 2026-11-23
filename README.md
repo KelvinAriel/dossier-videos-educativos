@@ -5,7 +5,7 @@ Sitio web académico de Telecomunicaciones Educativas I, grupo GT-01, Universida
 ## Contenido
 
 - Inicio y presentación del proyecto.
-- Unidades 1, 2, 3, 4 y 6.
+- Unidades 1, 2, 3, 4, 5 y 6.
 - Rotación de roles.
 - Reflexión final.
 
